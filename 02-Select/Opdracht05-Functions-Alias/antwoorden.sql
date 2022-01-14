@@ -9,11 +9,11 @@ SELECT COUNT(name) AS City_United_samen FROM `players` WHERE club = 'Manchester 
 -- Opdracht 5
 SELECT AVG(wage) AS gemiddelde_inkomen_nederlanders FROM players WHERE nationality="netherlands"
 -- Opdracht 6 
-SELECT AVG(wage) AS gemiddelde_inkomen_onder_twintig FROM players WHERE age<=20
+SELECT AVG(wage) AS gemiddelde_inkomen_onder_twintig FROM players WHERE age<20
 -- Opdracht 7 
-SELECT AVG(wage) AS gemiddelde_inkomen_onder_twintig FROM players WHERE age>=20
+SELECT AVG(wage) AS gemiddelde_inkomen_onder_twintig FROM players WHERE age>20
 -- Opdracht 8
-SELECT AVG(value) AS gemiddelde_waarde_spelers_chelsea FROM players WHERE club="Chelsea"
+SELECT SUM(value) AS waarde_spelers_chelsea FROM players WHERE club="Chelsea"
 -- Opdracht 9
 SELECT ROUND(AVG(age)) AS gemiddeld_leeftijd_spelers FROM `players`
 -- Opdracht 10
