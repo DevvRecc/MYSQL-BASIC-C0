@@ -4,3 +4,4 @@ SELECT * FROM `players` WHERE id=198329
 DELETE FROM `players` WHERE id=198329
 -- Opdracht 5
 DELETE FROM `players` WHERE id=199304
+DELETE FROM `players` WHERE id= 226753
